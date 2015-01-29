@@ -1,0 +1,21 @@
+{
+  "name": "endpoints-cli",
+  "description": "A tool for helping build Endpoints projects.",
+  "version": "0.1.0",
+  "private": true,
+  "bin": {
+    "endpoints": "bin/endpoints"
+  },
+  "scripts": {
+    "test": "mocha -R spec test/index.js"
+  },
+  "dependencies": {
+    "chalk": "^0.4.0",
+    "char-spinner": "^1.0.1",
+    "commander": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.18.2"
+  }
+}
